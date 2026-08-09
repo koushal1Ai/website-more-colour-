@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Teach to Learn - Empowering rural government school students through mentoring, peer learning, and Device Engineering Labs in collaboration with IIT Madras.">
+  <title>Teach to Learn | IIT Madras Initiative</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       TOP ANNOUNCEMENT & DONATE BAR
+       ========================================================================== -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-announcement">
+        <span class="badge-pulse">Support Us</span>
+        <span>Please Donate to set up and run DEL in rural schools using IIT Madras 'Joy of Giving' drive.</span>
+      </div>
+      <div>
+        <!-- LINK PLACEHOLDER: DONATION PAGE LINK -->
+        <a href="<!-- INSERT_DONATION_PAGE_LINK_HERE -->https://joyofgiving.alumni.iitm.ac.in/projects/general-fund/device-engineering-lab-in-rural-government-schools-2025" target="_blank" class="btn-donate-top">
+          DONATE NOW
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION MENU (UNCHANGED)
+       ========================================================================== -->
+  <header class="main-header">
+    <div class="container header-inner">
+      
+      <!-- Brand Logo A -->
+      <!-- LINK PLACEHOLDER: HOME LOGO LINK -->
+      <a href="<!-- INSERT_HOME_LINK_HERE -->index.html" class="brand-logo">
+        <img src="images/A.png" alt="Teach to Learn Logo" class="header-logo-img">
+      </a>
+
+      <!-- Mobile Toggle Button -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <!-- Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <!-- LINK PLACEHOLDER: HOME LINK -->
+        <a href="<!-- INSERT_HOME_LINK_HERE -->index.html" class="nav-link active">Home</a>
+        
+        <!-- OUR PROJECTS DROPDOWN MENU -->
+        <div class="nav-dropdown">
+          <span class="nav-link dropdown-trigger">
+            OUR PROJECTS <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+          </span>
+          <div class="dropdown-menu">
+            <!-- LINK PLACEHOLDER: C MINUS 4 LINK -->
+            <a href="<!-- INSERT_CMINUS4_LINK_HERE -->cminus4.php" class="dropdown-item">‘C minus 4’</a>
+            <!-- LINK PLACEHOLDER: 1LAB 1SCHOOL LINK -->
+            <a href="<!-- INSERT_1LAB1SCHOOL_LINK_HERE -->1lab-1school.php" class="dropdown-item">1Lab - 1School</a>
+            <!-- LINK PLACEHOLDER: TREND LINK -->
+            <a href="<!-- INSERT_TREND_LINK_HERE -->trend.php" class="dropdown-item">TREND</a>
+            <!-- LINK PLACEHOLDER: TEACH IN 10 LINK -->
+            <a href="<!-- INSERT_TEACHIN10_LINK_HERE -->teachin10.php" class="dropdown-item">Teach in 10</a>
+            <!-- LINK PLACEHOLDER: DEL LINK -->
+            <a href="<!-- INSERT_DEL_LINK_HERE -->del.php" class="dropdown-item">DEL</a>
+          </div>
+        </div>
+
+        <!-- LINK PLACEHOLDER: GALLERY LINK -->
+        <a href="<!-- INSERT_GALLERY_LINK_HERE -->gallery.php" class="nav-link">Gallery</a>
+        <!-- LINK PLACEHOLDER: PARTNERS LINK -->
+        <a href="<!-- INSERT_PARTNERS_LINK_HERE -->partners.php" class="nav-link">Partners</a>
+        <!-- LINK PLACEHOLDER: TESTIMONIALS LINK -->
+        <a href="<!-- INSERT_TESTIMONIALS_LINK_HERE -->testimonials.php" class="nav-link">Testimonials</a>
+        <!-- LINK PLACEHOLDER: CONTACT LINK -->
+        <a href="<!-- INSERT_CONTACT_LINK_HERE -->contact.php" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Right Logo B -->
+      <!-- LINK PLACEHOLDER: IIT MADRAS WEBSITE LINK -->
+      <a href="<!-- INSERT_IITM_LINK_HERE -->https://www.iitm.ac.in/" target="_blank" class="header-partner-logo" title="IIT Madras Partner">
+        <img src="images/B.png" alt="IIT Madras Logo" class="header-logo-img">
+      </a>
+
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SLIDER SECTION (5 SLIDES, 5 SECONDS AUTOMATIC SWITCHING)
+       ========================================================================== -->
+  <section class="hero-slider-section" id="hero">
+    <div class="slider-container">
+      
+      <!-- SLIDE 1 -->
+      <div class="slide active" style="background-image: url('images/hero1.jpg');">
+        <div class="slide-overlay"></div>
+        <div class="container slide-content-wrap">
+          <div class="slide-text-box">
+            <span class="slide-tag tag-orange">Hands-On STEM Education</span>
+            <h1 class="slide-heading">DEVICE ENGINEERING LABS (DEL)</h1>
+            <p class="slide-subtext">Developing the culture of 'building from scratch' and helping students think beyond the textbook with 3D printers and scientific innovation.</p>
+            <a href="<!-- INSERT_SLIDE_1_BUTTON_LINK_HERE -->del.php" class="btn-hero-cta btn-cta-orange">
+              EXPLORE DEL PROJECT <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 2 -->
+      <div class="slide" style="background-image: url('images/hero2.jpg');">
+        <div class="slide-overlay"></div>
+        <div class="container slide-content-wrap">
+          <div class="slide-text-box">
+            <span class="slide-tag tag-blue">IIT Madras Mentorship</span>
+            <h1 class="slide-heading">TOY MAKING</h1>
+            <p class="slide-subtext">create innovative toys with functional mechanisms such as gears, wheels, levers, and linkages. This hands-on activity develops creativity, engineering skills, problem-solving, and practical knowledge of mechanical systems..</p>
+            <a href="<!-- INSERT_SLIDE_2_BUTTON_LINK_HERE -->1lab-1school.php" class="btn-hero-cta btn-cta-blue">
+              DISCOVER MENTORSHIP <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 3 -->
+      <div class="slide" style="background-image: url('images/hero3.jpg');">
+        <div class="slide-overlay"></div>
+        <div class="container slide-content-wrap">
+          <div class="slide-text-box">
+            <span class="slide-tag tag-green">TEACH IN 10</span>
+            <h1 class="slide-heading">TEACH IN 10 VIDEO LEARNING</h1>
+            <p class="slide-subtext">Mentors from Higher Education Institutions mentor and train rural Government School students to develop and record 10 mins teaching videos on Mathematics, Science, Device Engineering and 3D Printing.</p>
+            <a href="<!-- INSERT_SLIDE_3_BUTTON_LINK_HERE -->teachin10.php" class="btn-hero-cta btn-cta-green">
+              WATCH TEACH IN 10 <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 4 -->
+      <div class="slide" style="background-image: url('images/hero4.jpg');">
+        <div class="slide-overlay"></div>
+        <div class="container slide-content-wrap">
+          <div class="slide-text-box">
+            <span class="slide-tag tag-orange">Skill Building</span>
+            <h1 class="slide-heading">EMPOWERING YOUTH WITH MANUFACTURING SKILLS</h1>
+            <p class="slide-subtext">Fostering scientific temper, indigenous design capabilities, and career confidence right from middle school level.</p>
+            <a href="<!-- INSERT_SLIDE_4_BUTTON_LINK_HERE -->cminus4.php" class="btn-hero-cta btn-cta-orange">
+              LEARN ABOUT C - 4 <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 5 -->
+      <div class="slide" style="background-image: url('images/hero5.jpg');">
+        <div class="slide-overlay"></div>
+        <div class="container slide-content-wrap">
+          <div class="slide-text-box">
+            <span class="slide-tag tag-blue">Sustainable Impact</span>
+            <h1 class="slide-heading">BRIDGING HIGHER EDUCATION & RURAL SCHOOLS</h1>
+            <p class="slide-subtext">Building a strong nation through peer-teaching, peer-learning, and community-driven educational models.</p>
+            <a href="<!-- INSERT_SLIDE_5_BUTTON_LINK_HERE -->about.php" class="btn-hero-cta btn-cta-blue">
+              OUR OVERARCHING VISION <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Vertical Dots Navigation -->
+    <div class="slider-dots-vertical">
+      <div class="dot active" data-slide="0"></div>
+      <div class="dot" data-slide="1"></div>
+      <div class="dot" data-slide="2"></div>
+      <div class="dot" data-slide="3"></div>
+      <div class="dot" data-slide="4"></div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SUB-HERO ANNOUNCEMENT STRIP
+       ========================================================================== -->
+  <div class="sub-hero-strip">
+    <div class="container">
+      <p>At <strong class="text-highlight-orange">Teach to Learn (IIT Madras)</strong>, we offer data-driven educational models that empower <span class="text-highlight-green">rural school students</span> to develop <span class="text-highlight-blue">scientific thinking, hands-on engineering skills, and career confidence</span> across India.</p>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       ABOUT & ACHIEVEMENTS SECTION (ORANGE, GREEN, BLUE HIGHLIGHTS)
+       ========================================================================== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        
+        <!-- Left Content Column -->
+        <div class="about-content-col">
+          <span class="section-label">ABOUT TEACH TO LEARN</span>
+          <h2 class="section-heading-large">PROMOTING POSITIVE YOUTH DEVELOPMENT THROUGH MENTORSHIP</h2>
+          <h3 class="section-subheading">Connected with Premier Higher Education Institutions Since 2015</h3>
+          
+          <p class="about-body-text">
+            The vibrant <strong>'Teach to Learn' team at IIT Madras</strong> aims to promote positive youth development using the mentoring approach. Our overarching goal is to provide structured mentoring to rural school students using well-researched programs.
+          </p>
+
+          <p class="about-body-text">
+            <strong>What do we do?</strong> We build mentoring models using the peer-teaching peer-learning mechanism. Our models aim to:
+          </p>
+
+          <ul class="about-body-list">
+            <li>Develop scientific temper and make hands-on learning part of rural educational experience.</li>
+            <li>Give rural youth exposure and access to state-of-the-art technology (3D printing & device engineering).</li>
+            <li>Motivate graduate and undergraduate students (Mentors) to build social awareness and leadership skills.</li>
+            <li>Build a bridge for dialogue between higher education and grassroot level school education.</li>
+          </ul>
+
+          <!-- LINK PLACEHOLDER: ABOUT PAGE REDIRECT LINK -->
+          <a href="<!-- INSERT_ABOUT_PAGE_LINK_HERE -->about.php" class="link-know-more">
+            KNOW MORE ABOUT US <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Right Image Column -->
+        <div class="about-image-col">
+          <div class="about-image-wrapper">
+            <img src="images/about.jpg" alt="Teach to Learn Mentors and Students at IIT Madras">
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Achievement Numbers Horizontal Banner (Black Background + Accent Trio) -->
+      <div class="achievements-banner-wrap">
+        <div class="achievements-grid-horizontal">
+          <div class="achievement-card">
+            <div class="stat-icon-wrap icon-orange"><i class="fa-solid fa-calendar-check"></i></div>
+            <div>
+              <div class="stat-number" data-target="5" style="color: var(--primary-orange);">5+</div>
+              <div class="stat-label">Years of Impact</div>
+            </div>
+          </div>
+
+          <div class="achievement-card">
+            <div class="stat-icon-wrap icon-green"><i class="fa-solid fa-school"></i></div>
+            <div>
+              <div class="stat-number" data-target="100" style="color: var(--primary-green);">100+</div>
+              <div class="stat-label">Rural Schools</div>
+            </div>
+          </div>
+
+          <div class="achievement-card">
+            <div class="stat-icon-wrap icon-blue"><i class="fa-solid fa-user-graduate"></i></div>
+            <div>
+              <div class="stat-number" data-target="1000" style="color: var(--primary-blue);">1000+</div>
+              <div class="stat-label">Students Mentored</div>
+            </div>
+          </div>
+
+          <div class="achievement-card">
+            <div class="stat-icon-wrap icon-orange"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <div>
+              <div class="stat-number" data-target="100" style="color: var(--primary-orange);">100+</div>
+              <div class="stat-label">Graduate Mentors</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       OUR PROJECTS SECTION (DEL & Teach in 10 with Orange & Blue Accents)
+       ========================================================================== -->
+  <section class="projects-section" id="our-projects">
+    <div class="container">
+      
+      <div class="section-header-center">
+        <span class="section-label">OUR FEATURED PROJECTS</span>
+        <h2 class="section-heading-large">OUR PROJECTS</h2>
+        <p style="color: var(--text-muted);">Innovating rural education through Device Engineering Labs and peer video teaching initiatives.</p>
+      </div>
+
+      <div class="projects-dual-grid">
+        
+        <!-- PROJECT 1: Device Engineering Lab (Orange Accent) -->
+        <div class="project-card card-accent-orange">
+          <div class="project-img-wrap">
+            <img src="images/hero1.jpg" alt="Device Engineering Lab">
+            <span class="project-badge-tag badge-orange">Flagship Lab</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Device Engineering Lab (DEL)</h3>
+            <span class="project-objective-label label-orange">Objective</span>
+            <p class="project-desc">
+              With the goal of developing the culture of ‘building from scratch’ and helping students think out of the box (beyond the textbook), Device Engineering Labs are set up in rural government schools.
+            </p>
+            <ul class="project-bullets">
+              <li>Providing training on “making” things</li>
+              <li>Developing “scientific thinking”</li>
+              <li>Building the habit of hands-on learning</li>
+              <li>Designing and making of parts & working models using 3D Printer</li>
+            </ul>
+            <a href="<!-- INSERT_DEL_PAGE_LINK_HERE -->del.php" class="btn-project-link btn-bg-orange">
+              READ MORE <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 2: Teach in 10 (Blue Accent) -->
+        <div class="project-card card-accent-blue">
+          <div class="project-img-wrap">
+            <img src="images/hero3.jpg" alt="Teach in 10">
+            <span class="project-badge-tag badge-blue">Peer Learning</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Teach in 10</h3>
+            <span class="project-objective-label label-blue">Objective</span>
+            <p class="project-desc">
+              Mentors from Higher Education Institutions mentor and train rural Government School students to develop and record 10-minute teaching videos on Mathematics, Science, Device Engineering, and 3D Printing.
+            </p>
+            <ul class="project-bullets">
+              <li>Empowers rural students with presentation confidence</li>
+              <li>Encourages peer-to-peer video knowledge sharing</li>
+              <li>Covers core STEM & 3D printing concepts</li>
+            </ul>
+            <a href="<!-- INSERT_TEACHIN10_PAGE_LINK_HERE -->teachin10.php" class="btn-project-link btn-bg-blue">
+              READ MORE <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       OTHER PROJECTS SECTION ('C - 4', 1Lab-1School, TREND, TOY MAKING)
+       ========================================================================== -->
+  <section class="other-projects-section" id="other-projects">
+    <div class="container">
+      
+      <div class="section-header-center">
+        <span class="section-label">OTHER OUTREACH PROJECTS</span>
+        <h2 class="section-heading-large">BUILDING SKILLS AT GRASSROOT LEVELS</h2>
+      </div>
+
+      <div class="other-projects-grid">
+        
+        <!-- OTHER PROJECT 1: C minus 4 (Orange Accent) -->
+        <div class="other-card card-accent-orange">
+          <div class="other-card-icon icon-orange">C-4</div>
+          <h3 class="other-card-title">‘C minus 4’</h3>
+          <span class="project-objective-label label-orange">Objective</span>
+          <p class="other-card-desc">
+            Train middle school students to equip them with necessary skills to become knowledgeable, confident, and competent individuals through creative toy making and hands-on experiments.
+          </p>
+          <a href="<!-- INSERT_CMINUS4_LINK_HERE -->cminus4.php" class="btn-small-link" style="color: var(--primary-orange);">
+            READ MORE <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- OTHER PROJECT 2: TOY MAKING (Green Accent) -->
+        <div class="other-card card-accent-green">
+          <div class="other-card-icon icon-green"><i class="fa-solid fa-cubes"></i></div>
+          <h3 class="other-card-title">TOY MAKING</h3>
+          <span class="project-objective-label label-green">Objective</span>
+          <p class="other-card-desc">
+            3D printing enables students to design and create innovative toys with functional mechanisms such as gears, wheels, levers, and linkages. Develops creativity and practical knowledge.
+          </p>
+          <a href="<!-- INSERT_TREND_LINK_HERE -->trend.php" class="btn-small-link" style="color: var(--primary-green);">
+            READ MORE <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+       
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       DATES, REACH, MISSION & VISION SECTION (SIDE-BY-SIDE GRID)
+       ========================================================================== -->
+  <section class="vision-reach-section" id="mission-vision">
+    <div class="container">
+      <div class="vision-grid">
+        
+        <!-- Left Box: Highlights & Reach (Green Border Accent) -->
+        <div class="vision-box box-accent-green">
+          <h3 class="vision-title title-icon-green">UPDATES & REACH</h3>
+          <div class="reach-list">
+            <div class="reach-item">
+              <h5>‘C minus 4’ Outreach Expansion</h5>
+              <p>Taking our successful toy making and skill model to grassroot school locations.</p>
+              <span>Location: Chengalpattu, Tamil Nadu & Puducherry</span>
+            </div>
+            
+            <div class="reach-item">
+              <h5>1Lab – 1School Impact</h5>
+              <p>About 800 students from 20 rural government schools are getting directly benefitted from this initiative.</p>
+              <span>Direct Beneficiaries: 800+ Rural School Children</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Box: Mission & Vision (Blue Border Accent) -->
+        <div class="vision-box box-accent-blue">
+          <h3 class="vision-title title-icon-blue">OUR MISSION & VISION</h3>
+          <p style="color: #94A3B8; margin-bottom: 20px;">We aim to strengthen the relationship between premier higher education institutions and grassroot level schools across India.</p>
+
+          <h4 style="color: var(--primary-orange); margin-bottom: 12px; font-size: 1.1rem;">Core Vision Goals:</h4>
+          <ul class="vision-points">
+            <li>Strengthen the relationship between premier higher education institutions and rural government schools across India.</li>
+            <li>Develop the culture of 'Mentoring' in national education.</li>
+            <li>Make 'hands-on learning' an integral part of school education.</li>
+            <li>Upskill students from school level to make them competent and confident graduates in future.</li>
+          </ul>
+
+          <!-- Dr. Pijush Ghosh Profile (Large Photo) -->
+          <div class="lead-profile-card">
+            <img src="images/photo.jpg" alt="Dr. Pijush Ghosh" class="lead-avatar-img">
+            <div class="lead-info">
+              <h5>Dr. Pijush Ghosh</h5>
+              <p>Associate Professor, Dept. of Applied Mechanics & Biomedical Engineering, IIT Madras</p>
+              <!-- LINK PLACEHOLDER: DR PIJUSH GHOSH LAB LINK -->
+              <a href="<!-- INSERT_DR_GHOSH_LAB_LINK_HERE -->https://home.iitm.ac.in/pijush/" target="_blank">
+                Visit Dr. Ghosh's Research Lab <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TESTIMONIALS SECTION (ORANGE, GREEN, BLUE CARD ACCENTS)
+       ========================================================================== -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header-center">
+        <span class="section-label">TESTIMONIALS</span>
+        <h2 class="section-heading-large">SUCCESS STORIES FROM STUDENTS & MENTORS</h2>
+        <p style="color: var(--text-muted);">Real feedback from participants in Teach to Learn programs.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        
+        <!-- TESTIMONIAL 1 (Orange Accent) -->
+        <div class="testimonial-card card-accent-orange">
+          <div class="quote-mark" style="color: var(--primary-orange);">“</div>
+          <p class="quote-text">
+            Being part of this program has been such a great experience. The program creates a wonderful space for mentors and students to connect, learn, and grow together.
+          </p>
+          <div class="author-meta">
+            <div class="author-avatar-sm" style="background: var(--primary-orange);">SS</div>
+            <div class="author-details">
+              <h5>Sangeetha Sankar</h5>
+              <p>PhD Scholar, Dept. of Ocean Engineering, IIT Madras</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- TESTIMONIAL 2 (Green Accent) -->
+        <div class="testimonial-card card-accent-green">
+          <div class="quote-mark" style="color: var(--primary-green);">“</div>
+          <p class="quote-text">
+            Through Teach in 10, seeing Kanimozhi confidently speak on stage, ask insightful questions, and plan her career path has been a truly rewarding transformation.
+          </p>
+          <div class="author-meta">
+            <div class="author-avatar-sm" style="background: var(--primary-green);">GR</div>
+            <div class="author-details">
+              <h5>Gayathri R</h5>
+              <p>PhD Scholar, Dept. of Medical Science & Tech, IIT Madras</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- TESTIMONIAL 3 (Blue Accent) -->
+        <div class="testimonial-card card-accent-blue">
+          <div class="quote-mark" style="color: var(--primary-blue);">“</div>
+          <p class="quote-text">
+            I learnt how to use Google Slides and device mechanisms like Stethoscope. Mentors encouraged us to ask questions and taught us with enthusiasm.
+          </p>
+          <div class="author-meta">
+            <div class="author-avatar-sm" style="background: var(--primary-blue);">SP</div>
+            <div class="author-details">
+              <h5>S. Pachaiyammal</h5>
+              <p>Student, GHS Nanmangalam</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER SECTION (UNCHANGED HEADINGS & COLORS)
+       ========================================================================== -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Column 1: Logo & Overview -->
+        <div class="footer-col">
+          <img src="images/FL.png" alt="Teach To Learn Footer Logo" class="footer-logo-img">
+          <p class="footer-tagline">Connecting Educational Institutions</p>
+          <ul class="footer-bullets">
+            <li>Mentoring</li>
+            <li>Peer Learning</li>
+            <li>Device Engineering</li>
+            <li>Skills Development</li>
+          </ul>
+        </div>
+
+        <!-- Column 2: Contact Info -->
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <div class="contact-info-list">
+            <h5 style="color: var(--white); font-size: 0.95rem; margin-bottom: 4px;">Dr. Pijush Ghosh</h5>
+            <p>Department of Applied Mechanics,<br>IIT Madras, Chennai 600 036.</p>
+            <p><i class="fa-regular fa-envelope" style="color: var(--primary-orange);"></i> <a href="mailto:pijush@iitm.ac.in">pijush@iitm.ac.in</a></p>
+          </div>
+        </div>
+
+        <!-- Column 3: Project Office -->
+        <div class="footer-col">
+          <h4>Project Office</h4>
+          <div class="contact-info-list">
+            <p>Mechanical Sciences Block (MSB),<br>Room: 205, IIT Madras,<br>Chennai 600 036.</p>
+            <p><i class="fa-solid fa-phone" style="color: var(--primary-orange);"></i> <a href="tel:04422575179">+91 - 44 - 2257 5179</a></p>
+            
+            <div class="social-links">
+              <a href="<!-- INSERT_YOUTUBE_LINK_HERE -->https://www.youtube.com/@teachtolearniitm" target="_blank" class="social-link-item">
+                <i class="fa-brands fa-youtube" style="color: #FF0000; font-size: 1.1rem;"></i> @teachtolearniitm
+              </a>
+              <a href="<!-- INSERT_INSTAGRAM_LINK_HERE -->https://www.instagram.com/teach2learn_pijush_iitm/" target="_blank" class="social-link-item">
+                <i class="fa-brands fa-instagram" style="color: #E1306C; font-size: 1.1rem;"></i> @teach2learn_pijush_iitm
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 4: Quick Links (EXACT SAME HEADINGS WITH 'JOBS' AT THE END) -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-quick-links">
+            <li><a href="<!-- INSERT_FOOTER_HOME_LINK_HERE -->index.html">Home</a></li>
+            <li><a href="<!-- INSERT_FOOTER_ABOUT_LINK_HERE -->about.php">About</a></li>
+            <li><a href="<!-- INSERT_FOOTER_CMINUS4_LINK_HERE -->cminus4.php">‘C minus 4’</a></li>
+            <li><a href="<!-- INSERT_FOOTER_1LAB1SCHOOL_LINK_HERE -->1lab-1school.php">1Lab - 1School</a></li>
+            <li><a href="<!-- INSERT_FOOTER_TREND_LINK_HERE -->trend.php">TREND</a></li>
+            <li><a href="<!-- INSERT_FOOTER_TEACHIN10_LINK_HERE -->teachin10.php">Teach in 10</a></li>
+            <li><a href="<!-- INSERT_FOOTER_DEL_LINK_HERE -->del.php">DEL</a></li>
+            <li><a href="<!-- INSERT_FOOTER_EMENTORING_LINK_HERE -->eMentoringonSTEMtoruralschoolstudents.php">EMentoring</a></li>
+            <li><a href="<!-- INSERT_FOOTER_ETUTORING_LINK_HERE -->eTutoringbyT2LandAcheveFoundation.php">ETutoring</a></li>
+            <li><a href="<!-- INSERT_FOOTER_GALLERY_LINK_HERE -->gallery.php">Gallery</a></li>
+            <li><a href="<!-- INSERT_FOOTER_PARTNERS_LINK_HERE -->partners.php">Partners</a></li>
+            <li><a href="<!-- INSERT_FOOTER_TESTIMONIALS_LINK_HERE -->testimonials.php">Testimonials</a></li>
+            <li><a href="<!-- INSERT_FOOTER_CONTACT_LINK_HERE -->contact.php">Contact</a></li>
+            <li><a href="<!-- INSERT_FOOTER_JOBS_LINK_HERE -->jobs.php">Jobs</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Copyright Bar -->
+      <div class="copyright-bar">
+        <div>
+          Teach To Learn Copyright © <span id="yearSpan">2026</span> - All Rights Reserved
+        </div>
+        <div>
+          Powered by <a href="https://www.itacumens.com/" target="_blank">ITAcumens</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Script File -->
+  <script src="main.js"></script>
+
+</body>
+</html>
